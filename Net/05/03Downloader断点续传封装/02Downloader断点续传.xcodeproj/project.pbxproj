@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2585D8520034AEB00EA9229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2585D8420034AEB00EA9229 /* main.m */; };
+		A2585D8820034AEB00EA9229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2585D8720034AEB00EA9229 /* AppDelegate.m */; };
+		A2585D8B20034AEB00EA9229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2585D8A20034AEB00EA9229 /* ViewController.m */; };
+		A2585D8E20034AEB00EA9229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2585D8C20034AEB00EA9229 /* Main.storyboard */; };
+		A2585D9020034AEB00EA9229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2585D8F20034AEB00EA9229 /* Assets.xcassets */; };
+		A2585D9320034AEB00EA9229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2585D9120034AEB00EA9229 /* LaunchScreen.storyboard */; };
+		A2585D9E20034AEB00EA9229 /* _1DownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2585D9D20034AEB00EA9229 /* _1DownloaderTests.m */; };
+		A2585DA920034AEB00EA9229 /* _1DownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2585DA820034AEB00EA9229 /* _1DownloaderUITests.m */; };
+		A2585DB820034BC900EA9229 /* MTDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A2585DB720034BC900EA9229 /* MTDownloader.m */; settings = {ASSET_TAGS = (); }; };
+		A282652A20039D85009557EE /* MTProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A282652920039D85009557EE /* MTProcessView.m */; settings = {ASSET_TAGS = (); }; };
+		A282652D2003A4FF009557EE /* MTDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A282652C2003A4FF009557EE /* MTDownloadManager.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2585D9A20034AEB00EA9229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2585D7820034AEB00EA9229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2585D7F20034AEB00EA9229;
+			remoteInfo = 01Downloader;
+		};
+		A2585DA520034AEB00EA9229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2585D7820034AEB00EA9229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2585D7F20034AEB00EA9229;
+			remoteInfo = 01Downloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2585D8020034AEB00EA9229 /* 02Downloader断点续传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02Downloader断点续传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2585D8420034AEB00EA9229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2585D8620034AEB00EA9229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2585D8720034AEB00EA9229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2585D8920034AEB00EA9229 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2585D8A20034AEB00EA9229 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2585D8D20034AEB00EA9229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2585D8F20034AEB00EA9229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2585D9220034AEB00EA9229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2585D9420034AEB00EA9229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2585D9920034AEB00EA9229 /* 02Downloader断点续传.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02Downloader断点续传.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2585D9D20034AEB00EA9229 /* _1DownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1DownloaderTests.m; sourceTree = "<group>"; };
+		A2585D9F20034AEB00EA9229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2585DA420034AEB00EA9229 /* 02Downloader断点续传.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02Downloader断点续传.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2585DA820034AEB00EA9229 /* _1DownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1DownloaderUITests.m; sourceTree = "<group>"; };
+		A2585DAA20034AEB00EA9229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2585DB620034BC900EA9229 /* MTDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDownloader.h; sourceTree = "<group>"; };
+		A2585DB720034BC900EA9229 /* MTDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDownloader.m; sourceTree = "<group>"; };
+		A282652820039D85009557EE /* MTProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTProcessView.h; sourceTree = "<group>"; };
+		A282652920039D85009557EE /* MTProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTProcessView.m; sourceTree = "<group>"; };
+		A282652B2003A4FF009557EE /* MTDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDownloadManager.h; sourceTree = "<group>"; };
+		A282652C2003A4FF009557EE /* MTDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDownloadManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2585D7D20034AEB00EA9229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2585D9620034AEB00EA9229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2585DA120034AEB00EA9229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2585D7720034AEB00EA9229 = {
+			isa = PBXGroup;
+			children = (
+				A2585D8220034AEB00EA9229 /* 01Downloader */,
+				A2585D9C20034AEB00EA9229 /* 01DownloaderTests */,
+				A2585DA720034AEB00EA9229 /* 01DownloaderUITests */,
+				A2585D8120034AEB00EA9229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2585D8120034AEB00EA9229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2585D8020034AEB00EA9229 /* 02Downloader断点续传.app */,
+				A2585D9920034AEB00EA9229 /* 02Downloader断点续传.xctest */,
+				A2585DA420034AEB00EA9229 /* 02Downloader断点续传.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2585D8220034AEB00EA9229 /* 01Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				A2585D8620034AEB00EA9229 /* AppDelegate.h */,
+				A2585D8720034AEB00EA9229 /* AppDelegate.m */,
+				A2585D8920034AEB00EA9229 /* ViewController.h */,
+				A2585D8A20034AEB00EA9229 /* ViewController.m */,
+				A2585D8C20034AEB00EA9229 /* Main.storyboard */,
+				A2585D8F20034AEB00EA9229 /* Assets.xcassets */,
+				A2585D9120034AEB00EA9229 /* LaunchScreen.storyboard */,
+				A2585D9420034AEB00EA9229 /* Info.plist */,
+				A2585D8320034AEB00EA9229 /* Supporting Files */,
+				A2585DB620034BC900EA9229 /* MTDownloader.h */,
+				A2585DB720034BC900EA9229 /* MTDownloader.m */,
+				A282652820039D85009557EE /* MTProcessView.h */,
+				A282652920039D85009557EE /* MTProcessView.m */,
+				A282652B2003A4FF009557EE /* MTDownloadManager.h */,
+				A282652C2003A4FF009557EE /* MTDownloadManager.m */,
+			);
+			path = 01Downloader;
+			sourceTree = "<group>";
+		};
+		A2585D8320034AEB00EA9229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2585D8420034AEB00EA9229 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2585D9C20034AEB00EA9229 /* 01DownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2585D9D20034AEB00EA9229 /* _1DownloaderTests.m */,
+				A2585D9F20034AEB00EA9229 /* Info.plist */,
+			);
+			path = 01DownloaderTests;
+			sourceTree = "<group>";
+		};
+		A2585DA720034AEB00EA9229 /* 01DownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2585DA820034AEB00EA9229 /* _1DownloaderUITests.m */,
+				A2585DAA20034AEB00EA9229 /* Info.plist */,
+			);
+			path = 01DownloaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2585D7F20034AEB00EA9229 /* 02Downloader断点续传 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2585DAD20034AEB00EA9229 /* Build configuration list for PBXNativeTarget "02Downloader断点续传" */;
+			buildPhases = (
+				A2585D7C20034AEB00EA9229 /* Sources */,
+				A2585D7D20034AEB00EA9229 /* Frameworks */,
+				A2585D7E20034AEB00EA9229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02Downloader断点续传";
+			productName = 01Downloader;
+			productReference = A2585D8020034AEB00EA9229 /* 02Downloader断点续传.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2585D9820034AEB00EA9229 /* 02Downloader断点续传Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2585DB020034AEB00EA9229 /* Build configuration list for PBXNativeTarget "02Downloader断点续传Tests" */;
+			buildPhases = (
+				A2585D9520034AEB00EA9229 /* Sources */,
+				A2585D9620034AEB00EA9229 /* Frameworks */,
+				A2585D9720034AEB00EA9229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2585D9B20034AEB00EA9229 /* PBXTargetDependency */,
+			);
+			name = "02Downloader断点续传Tests";
+			productName = 01DownloaderTests;
+			productReference = A2585D9920034AEB00EA9229 /* 02Downloader断点续传.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2585DA320034AEB00EA9229 /* 02Downloader断点续传UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2585DB320034AEB00EA9229 /* Build configuration list for PBXNativeTarget "02Downloader断点续传UITests" */;
+			buildPhases = (
+				A2585DA020034AEB00EA9229 /* Sources */,
+				A2585DA120034AEB00EA9229 /* Frameworks */,
+				A2585DA220034AEB00EA9229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2585DA620034AEB00EA9229 /* PBXTargetDependency */,
+			);
+			name = "02Downloader断点续传UITests";
+			productName = 01DownloaderUITests;
+			productReference = A2585DA420034AEB00EA9229 /* 02Downloader断点续传.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2585D7820034AEB00EA9229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mazaiting;
+				TargetAttributes = {
+					A2585D7F20034AEB00EA9229 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A2585D9820034AEB00EA9229 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A2585D7F20034AEB00EA9229;
+					};
+					A2585DA320034AEB00EA9229 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A2585D7F20034AEB00EA9229;
+					};
+				};
+			};
+			buildConfigurationList = A2585D7B20034AEB00EA9229 /* Build configuration list for PBXProject "02Downloader断点续传" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2585D7720034AEB00EA9229;
+			productRefGroup = A2585D8120034AEB00EA9229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2585D7F20034AEB00EA9229 /* 02Downloader断点续传 */,
+				A2585D9820034AEB00EA9229 /* 02Downloader断点续传Tests */,
+				A2585DA320034AEB00EA9229 /* 02Downloader断点续传UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2585D7E20034AEB00EA9229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2585D9320034AEB00EA9229 /* LaunchScreen.storyboard in Resources */,
+				A2585D9020034AEB00EA9229 /* Assets.xcassets in Resources */,
+				A2585D8E20034AEB00EA9229 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2585D9720034AEB00EA9229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2585DA220034AEB00EA9229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2585D7C20034AEB00EA9229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A282652A20039D85009557EE /* MTProcessView.m in Sources */,
+				A2585D8B20034AEB00EA9229 /* ViewController.m in Sources */,
+				A2585DB820034BC900EA9229 /* MTDownloader.m in Sources */,
+				A2585D8820034AEB00EA9229 /* AppDelegate.m in Sources */,
+				A282652D2003A4FF009557EE /* MTDownloadManager.m in Sources */,
+				A2585D8520034AEB00EA9229 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2585D9520034AEB00EA9229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2585D9E20034AEB00EA9229 /* _1DownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2585DA020034AEB00EA9229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2585DA920034AEB00EA9229 /* _1DownloaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2585D9B20034AEB00EA9229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2585D7F20034AEB00EA9229 /* 02Downloader断点续传 */;
+			targetProxy = A2585D9A20034AEB00EA9229 /* PBXContainerItemProxy */;
+		};
+		A2585DA620034AEB00EA9229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2585D7F20034AEB00EA9229 /* 02Downloader断点续传 */;
+			targetProxy = A2585DA520034AEB00EA9229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2585D8C20034AEB00EA9229 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2585D8D20034AEB00EA9229 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2585D9120034AEB00EA9229 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2585D9220034AEB00EA9229 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2585DAB20034AEB00EA9229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2585DAC20034AEB00EA9229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2585DAE20034AEB00EA9229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 01Downloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-1Downloader";
+				PRODUCT_NAME = "02Downloader断点续传";
+			};
+			name = Debug;
+		};
+		A2585DAF20034AEB00EA9229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 01Downloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-1Downloader";
+				PRODUCT_NAME = "02Downloader断点续传";
+			};
+			name = Release;
+		};
+		A2585DB120034AEB00EA9229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 01DownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-1DownloaderTests";
+				PRODUCT_NAME = "02Downloader断点续传";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02Downloader断点续传.app/02Downloader断点续传";
+			};
+			name = Debug;
+		};
+		A2585DB220034AEB00EA9229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 01DownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-1DownloaderTests";
+				PRODUCT_NAME = "02Downloader断点续传";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02Downloader断点续传.app/02Downloader断点续传";
+			};
+			name = Release;
+		};
+		A2585DB420034AEB00EA9229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 01DownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-1DownloaderUITests";
+				PRODUCT_NAME = "02Downloader断点续传";
+				TEST_TARGET_NAME = 01Downloader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2585DB520034AEB00EA9229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 01DownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-1DownloaderUITests";
+				PRODUCT_NAME = "02Downloader断点续传";
+				TEST_TARGET_NAME = 01Downloader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2585D7B20034AEB00EA9229 /* Build configuration list for PBXProject "02Downloader断点续传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2585DAB20034AEB00EA9229 /* Debug */,
+				A2585DAC20034AEB00EA9229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2585DAD20034AEB00EA9229 /* Build configuration list for PBXNativeTarget "02Downloader断点续传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2585DAE20034AEB00EA9229 /* Debug */,
+				A2585DAF20034AEB00EA9229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2585DB020034AEB00EA9229 /* Build configuration list for PBXNativeTarget "02Downloader断点续传Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2585DB120034AEB00EA9229 /* Debug */,
+				A2585DB220034AEB00EA9229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2585DB320034AEB00EA9229 /* Build configuration list for PBXNativeTarget "02Downloader断点续传UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2585DB420034AEB00EA9229 /* Debug */,
+				A2585DB520034AEB00EA9229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2585D7820034AEB00EA9229 /* Project object */;
+}

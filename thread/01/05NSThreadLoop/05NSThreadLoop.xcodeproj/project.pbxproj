@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A213FBBC20107E0100D4083A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A213FBBB20107E0100D4083A /* main.m */; };
+		A213FBBF20107E0100D4083A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A213FBBE20107E0100D4083A /* AppDelegate.m */; };
+		A213FBC220107E0100D4083A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A213FBC120107E0100D4083A /* ViewController.m */; };
+		A213FBC520107E0100D4083A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A213FBC320107E0100D4083A /* Main.storyboard */; };
+		A213FBC720107E0100D4083A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A213FBC620107E0100D4083A /* Assets.xcassets */; };
+		A213FBCA20107E0100D4083A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A213FBC820107E0100D4083A /* LaunchScreen.storyboard */; };
+		A213FBD520107E0100D4083A /* _5NSThreadLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A213FBD420107E0100D4083A /* _5NSThreadLoopTests.m */; };
+		A213FBE020107E0100D4083A /* _5NSThreadLoopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A213FBDF20107E0100D4083A /* _5NSThreadLoopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A213FBD120107E0100D4083A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A213FBAF20107E0100D4083A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A213FBB620107E0100D4083A;
+			remoteInfo = 05NSThreadLoop;
+		};
+		A213FBDC20107E0100D4083A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A213FBAF20107E0100D4083A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A213FBB620107E0100D4083A;
+			remoteInfo = 05NSThreadLoop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A213FBB720107E0100D4083A /* 05NSThreadLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 05NSThreadLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A213FBBB20107E0100D4083A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A213FBBD20107E0100D4083A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A213FBBE20107E0100D4083A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A213FBC020107E0100D4083A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A213FBC120107E0100D4083A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A213FBC420107E0100D4083A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A213FBC620107E0100D4083A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A213FBC920107E0100D4083A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A213FBCB20107E0100D4083A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A213FBD020107E0100D4083A /* 05NSThreadLoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 05NSThreadLoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A213FBD420107E0100D4083A /* _5NSThreadLoopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5NSThreadLoopTests.m; sourceTree = "<group>"; };
+		A213FBD620107E0100D4083A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A213FBDB20107E0100D4083A /* 05NSThreadLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 05NSThreadLoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A213FBDF20107E0100D4083A /* _5NSThreadLoopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5NSThreadLoopUITests.m; sourceTree = "<group>"; };
+		A213FBE120107E0100D4083A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A213FBB420107E0100D4083A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A213FBCD20107E0100D4083A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A213FBD820107E0100D4083A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A213FBAE20107E0100D4083A = {
+			isa = PBXGroup;
+			children = (
+				A213FBB920107E0100D4083A /* 05NSThreadLoop */,
+				A213FBD320107E0100D4083A /* 05NSThreadLoopTests */,
+				A213FBDE20107E0100D4083A /* 05NSThreadLoopUITests */,
+				A213FBB820107E0100D4083A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A213FBB820107E0100D4083A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A213FBB720107E0100D4083A /* 05NSThreadLoop.app */,
+				A213FBD020107E0100D4083A /* 05NSThreadLoopTests.xctest */,
+				A213FBDB20107E0100D4083A /* 05NSThreadLoopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A213FBB920107E0100D4083A /* 05NSThreadLoop */ = {
+			isa = PBXGroup;
+			children = (
+				A213FBBD20107E0100D4083A /* AppDelegate.h */,
+				A213FBBE20107E0100D4083A /* AppDelegate.m */,
+				A213FBC020107E0100D4083A /* ViewController.h */,
+				A213FBC120107E0100D4083A /* ViewController.m */,
+				A213FBC320107E0100D4083A /* Main.storyboard */,
+				A213FBC620107E0100D4083A /* Assets.xcassets */,
+				A213FBC820107E0100D4083A /* LaunchScreen.storyboard */,
+				A213FBCB20107E0100D4083A /* Info.plist */,
+				A213FBBA20107E0100D4083A /* Supporting Files */,
+			);
+			path = 05NSThreadLoop;
+			sourceTree = "<group>";
+		};
+		A213FBBA20107E0100D4083A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A213FBBB20107E0100D4083A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A213FBD320107E0100D4083A /* 05NSThreadLoopTests */ = {
+			isa = PBXGroup;
+			children = (
+				A213FBD420107E0100D4083A /* _5NSThreadLoopTests.m */,
+				A213FBD620107E0100D4083A /* Info.plist */,
+			);
+			path = 05NSThreadLoopTests;
+			sourceTree = "<group>";
+		};
+		A213FBDE20107E0100D4083A /* 05NSThreadLoopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A213FBDF20107E0100D4083A /* _5NSThreadLoopUITests.m */,
+				A213FBE120107E0100D4083A /* Info.plist */,
+			);
+			path = 05NSThreadLoopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A213FBB620107E0100D4083A /* 05NSThreadLoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A213FBE420107E0100D4083A /* Build configuration list for PBXNativeTarget "05NSThreadLoop" */;
+			buildPhases = (
+				A213FBB320107E0100D4083A /* Sources */,
+				A213FBB420107E0100D4083A /* Frameworks */,
+				A213FBB520107E0100D4083A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 05NSThreadLoop;
+			productName = 05NSThreadLoop;
+			productReference = A213FBB720107E0100D4083A /* 05NSThreadLoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A213FBCF20107E0100D4083A /* 05NSThreadLoopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A213FBE720107E0100D4083A /* Build configuration list for PBXNativeTarget "05NSThreadLoopTests" */;
+			buildPhases = (
+				A213FBCC20107E0100D4083A /* Sources */,
+				A213FBCD20107E0100D4083A /* Frameworks */,
+				A213FBCE20107E0100D4083A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A213FBD220107E0100D4083A /* PBXTargetDependency */,
+			);
+			name = 05NSThreadLoopTests;
+			productName = 05NSThreadLoopTests;
+			productReference = A213FBD020107E0100D4083A /* 05NSThreadLoopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A213FBDA20107E0100D4083A /* 05NSThreadLoopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A213FBEA20107E0100D4083A /* Build configuration list for PBXNativeTarget "05NSThreadLoopUITests" */;
+			buildPhases = (
+				A213FBD720107E0100D4083A /* Sources */,
+				A213FBD820107E0100D4083A /* Frameworks */,
+				A213FBD920107E0100D4083A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A213FBDD20107E0100D4083A /* PBXTargetDependency */,
+			);
+			name = 05NSThreadLoopUITests;
+			productName = 05NSThreadLoopUITests;
+			productReference = A213FBDB20107E0100D4083A /* 05NSThreadLoopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A213FBAF20107E0100D4083A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mazaiting;
+				TargetAttributes = {
+					A213FBB620107E0100D4083A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A213FBCF20107E0100D4083A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A213FBB620107E0100D4083A;
+					};
+					A213FBDA20107E0100D4083A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A213FBB620107E0100D4083A;
+					};
+				};
+			};
+			buildConfigurationList = A213FBB220107E0100D4083A /* Build configuration list for PBXProject "05NSThreadLoop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A213FBAE20107E0100D4083A;
+			productRefGroup = A213FBB820107E0100D4083A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A213FBB620107E0100D4083A /* 05NSThreadLoop */,
+				A213FBCF20107E0100D4083A /* 05NSThreadLoopTests */,
+				A213FBDA20107E0100D4083A /* 05NSThreadLoopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A213FBB520107E0100D4083A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A213FBCA20107E0100D4083A /* LaunchScreen.storyboard in Resources */,
+				A213FBC720107E0100D4083A /* Assets.xcassets in Resources */,
+				A213FBC520107E0100D4083A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A213FBCE20107E0100D4083A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A213FBD920107E0100D4083A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A213FBB320107E0100D4083A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A213FBC220107E0100D4083A /* ViewController.m in Sources */,
+				A213FBBF20107E0100D4083A /* AppDelegate.m in Sources */,
+				A213FBBC20107E0100D4083A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A213FBCC20107E0100D4083A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A213FBD520107E0100D4083A /* _5NSThreadLoopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A213FBD720107E0100D4083A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A213FBE020107E0100D4083A /* _5NSThreadLoopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A213FBD220107E0100D4083A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A213FBB620107E0100D4083A /* 05NSThreadLoop */;
+			targetProxy = A213FBD120107E0100D4083A /* PBXContainerItemProxy */;
+		};
+		A213FBDD20107E0100D4083A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A213FBB620107E0100D4083A /* 05NSThreadLoop */;
+			targetProxy = A213FBDC20107E0100D4083A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A213FBC320107E0100D4083A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A213FBC420107E0100D4083A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A213FBC820107E0100D4083A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A213FBC920107E0100D4083A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A213FBE220107E0100D4083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A213FBE320107E0100D4083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A213FBE520107E0100D4083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 05NSThreadLoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-5NSThreadLoop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A213FBE620107E0100D4083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 05NSThreadLoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-5NSThreadLoop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A213FBE820107E0100D4083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 05NSThreadLoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-5NSThreadLoopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05NSThreadLoop.app/05NSThreadLoop";
+			};
+			name = Debug;
+		};
+		A213FBE920107E0100D4083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 05NSThreadLoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-5NSThreadLoopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05NSThreadLoop.app/05NSThreadLoop";
+			};
+			name = Release;
+		};
+		A213FBEB20107E0100D4083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 05NSThreadLoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-5NSThreadLoopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 05NSThreadLoop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A213FBEC20107E0100D4083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 05NSThreadLoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-5NSThreadLoopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 05NSThreadLoop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A213FBB220107E0100D4083A /* Build configuration list for PBXProject "05NSThreadLoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A213FBE220107E0100D4083A /* Debug */,
+				A213FBE320107E0100D4083A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A213FBE420107E0100D4083A /* Build configuration list for PBXNativeTarget "05NSThreadLoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A213FBE520107E0100D4083A /* Debug */,
+				A213FBE620107E0100D4083A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A213FBE720107E0100D4083A /* Build configuration list for PBXNativeTarget "05NSThreadLoopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A213FBE820107E0100D4083A /* Debug */,
+				A213FBE920107E0100D4083A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A213FBEA20107E0100D4083A /* Build configuration list for PBXNativeTarget "05NSThreadLoopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A213FBEB20107E0100D4083A /* Debug */,
+				A213FBEC20107E0100D4083A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A213FBAF20107E0100D4083A /* Project object */;
+}

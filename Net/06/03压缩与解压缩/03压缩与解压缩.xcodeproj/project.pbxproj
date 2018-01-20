@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A281B39B2004AEF700CEAA3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A281B39A2004AEF700CEAA3E /* main.m */; };
+		A281B39E2004AEF700CEAA3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A281B39D2004AEF700CEAA3E /* AppDelegate.m */; };
+		A281B3A12004AEF700CEAA3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A281B3A02004AEF700CEAA3E /* ViewController.m */; };
+		A281B3A42004AEF700CEAA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A281B3A22004AEF700CEAA3E /* Main.storyboard */; };
+		A281B3A62004AEF700CEAA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A281B3A52004AEF700CEAA3E /* Assets.xcassets */; };
+		A281B3A92004AEF700CEAA3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A281B3A72004AEF700CEAA3E /* LaunchScreen.storyboard */; };
+		A281B3B42004AEF700CEAA3E /* _3______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A281B3B32004AEF700CEAA3E /* _3______Tests.m */; };
+		A281B3BF2004AEF700CEAA3E /* _3______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A281B3BE2004AEF700CEAA3E /* _3______UITests.m */; };
+		A281B3D92004AF8700CEAA3E /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = A281B3CF2004AF8700CEAA3E /* ioapi.c */; settings = {ASSET_TAGS = (); }; };
+		A281B3DA2004AF8700CEAA3E /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = A281B3D12004AF8700CEAA3E /* mztools.c */; settings = {ASSET_TAGS = (); }; };
+		A281B3DB2004AF8700CEAA3E /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = A281B3D32004AF8700CEAA3E /* unzip.c */; settings = {ASSET_TAGS = (); }; };
+		A281B3DC2004AF8700CEAA3E /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = A281B3D52004AF8700CEAA3E /* zip.c */; settings = {ASSET_TAGS = (); }; };
+		A281B3DD2004AF8700CEAA3E /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = A281B3D82004AF8700CEAA3E /* SSZipArchive.m */; settings = {ASSET_TAGS = (); }; };
+		A281B3E12004B17A00CEAA3E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A281B3E02004B17A00CEAA3E /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A281B3B02004AEF700CEAA3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A281B38E2004AEF700CEAA3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A281B3952004AEF700CEAA3E;
+			remoteInfo = "03压缩与解压缩";
+		};
+		A281B3BB2004AEF700CEAA3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A281B38E2004AEF700CEAA3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A281B3952004AEF700CEAA3E;
+			remoteInfo = "03压缩与解压缩";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A281B3962004AEF700CEAA3E /* 03压缩与解压缩.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03压缩与解压缩.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A281B39A2004AEF700CEAA3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A281B39C2004AEF700CEAA3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A281B39D2004AEF700CEAA3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A281B39F2004AEF700CEAA3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A281B3A02004AEF700CEAA3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A281B3A32004AEF700CEAA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A281B3A52004AEF700CEAA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A281B3A82004AEF700CEAA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A281B3AA2004AEF700CEAA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A281B3AF2004AEF700CEAA3E /* 03压缩与解压缩Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03压缩与解压缩Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A281B3B32004AEF700CEAA3E /* _3______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3______Tests.m"; sourceTree = "<group>"; };
+		A281B3B52004AEF700CEAA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A281B3BA2004AEF700CEAA3E /* 03压缩与解压缩UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03压缩与解压缩UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A281B3BE2004AEF700CEAA3E /* _3______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3______UITests.m"; sourceTree = "<group>"; };
+		A281B3C02004AEF700CEAA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A281B3CE2004AF8700CEAA3E /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		A281B3CF2004AF8700CEAA3E /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		A281B3D02004AF8700CEAA3E /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		A281B3D12004AF8700CEAA3E /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		A281B3D22004AF8700CEAA3E /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		A281B3D32004AF8700CEAA3E /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		A281B3D42004AF8700CEAA3E /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		A281B3D52004AF8700CEAA3E /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		A281B3D62004AF8700CEAA3E /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		A281B3D72004AF8700CEAA3E /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		A281B3D82004AF8700CEAA3E /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		A281B3E02004B17A00CEAA3E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A281B3932004AEF700CEAA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A281B3E12004B17A00CEAA3E /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A281B3AC2004AEF700CEAA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A281B3B72004AEF700CEAA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A281B38D2004AEF700CEAA3E = {
+			isa = PBXGroup;
+			children = (
+				A281B3E02004B17A00CEAA3E /* libz.tbd */,
+				A281B3982004AEF700CEAA3E /* 03压缩与解压缩 */,
+				A281B3B22004AEF700CEAA3E /* 03压缩与解压缩Tests */,
+				A281B3BD2004AEF700CEAA3E /* 03压缩与解压缩UITests */,
+				A281B3972004AEF700CEAA3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A281B3972004AEF700CEAA3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A281B3962004AEF700CEAA3E /* 03压缩与解压缩.app */,
+				A281B3AF2004AEF700CEAA3E /* 03压缩与解压缩Tests.xctest */,
+				A281B3BA2004AEF700CEAA3E /* 03压缩与解压缩UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A281B3982004AEF700CEAA3E /* 03压缩与解压缩 */ = {
+			isa = PBXGroup;
+			children = (
+				A281B3CC2004AF8700CEAA3E /* SSZipArchive */,
+				A281B39C2004AEF700CEAA3E /* AppDelegate.h */,
+				A281B39D2004AEF700CEAA3E /* AppDelegate.m */,
+				A281B39F2004AEF700CEAA3E /* ViewController.h */,
+				A281B3A02004AEF700CEAA3E /* ViewController.m */,
+				A281B3A22004AEF700CEAA3E /* Main.storyboard */,
+				A281B3A52004AEF700CEAA3E /* Assets.xcassets */,
+				A281B3A72004AEF700CEAA3E /* LaunchScreen.storyboard */,
+				A281B3AA2004AEF700CEAA3E /* Info.plist */,
+				A281B3992004AEF700CEAA3E /* Supporting Files */,
+			);
+			path = "03压缩与解压缩";
+			sourceTree = "<group>";
+		};
+		A281B3992004AEF700CEAA3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A281B39A2004AEF700CEAA3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A281B3B22004AEF700CEAA3E /* 03压缩与解压缩Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A281B3B32004AEF700CEAA3E /* _3______Tests.m */,
+				A281B3B52004AEF700CEAA3E /* Info.plist */,
+			);
+			path = "03压缩与解压缩Tests";
+			sourceTree = "<group>";
+		};
+		A281B3BD2004AEF700CEAA3E /* 03压缩与解压缩UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A281B3BE2004AEF700CEAA3E /* _3______UITests.m */,
+				A281B3C02004AEF700CEAA3E /* Info.plist */,
+			);
+			path = "03压缩与解压缩UITests";
+			sourceTree = "<group>";
+		};
+		A281B3CC2004AF8700CEAA3E /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				A281B3CD2004AF8700CEAA3E /* minizip */,
+				A281B3D72004AF8700CEAA3E /* SSZipArchive.h */,
+				A281B3D82004AF8700CEAA3E /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		A281B3CD2004AF8700CEAA3E /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				A281B3CE2004AF8700CEAA3E /* crypt.h */,
+				A281B3CF2004AF8700CEAA3E /* ioapi.c */,
+				A281B3D02004AF8700CEAA3E /* ioapi.h */,
+				A281B3D12004AF8700CEAA3E /* mztools.c */,
+				A281B3D22004AF8700CEAA3E /* mztools.h */,
+				A281B3D32004AF8700CEAA3E /* unzip.c */,
+				A281B3D42004AF8700CEAA3E /* unzip.h */,
+				A281B3D52004AF8700CEAA3E /* zip.c */,
+				A281B3D62004AF8700CEAA3E /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A281B3952004AEF700CEAA3E /* 03压缩与解压缩 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A281B3C32004AEF700CEAA3E /* Build configuration list for PBXNativeTarget "03压缩与解压缩" */;
+			buildPhases = (
+				A281B3922004AEF700CEAA3E /* Sources */,
+				A281B3932004AEF700CEAA3E /* Frameworks */,
+				A281B3942004AEF700CEAA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03压缩与解压缩";
+			productName = "03压缩与解压缩";
+			productReference = A281B3962004AEF700CEAA3E /* 03压缩与解压缩.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A281B3AE2004AEF700CEAA3E /* 03压缩与解压缩Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A281B3C62004AEF700CEAA3E /* Build configuration list for PBXNativeTarget "03压缩与解压缩Tests" */;
+			buildPhases = (
+				A281B3AB2004AEF700CEAA3E /* Sources */,
+				A281B3AC2004AEF700CEAA3E /* Frameworks */,
+				A281B3AD2004AEF700CEAA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A281B3B12004AEF700CEAA3E /* PBXTargetDependency */,
+			);
+			name = "03压缩与解压缩Tests";
+			productName = "03压缩与解压缩Tests";
+			productReference = A281B3AF2004AEF700CEAA3E /* 03压缩与解压缩Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A281B3B92004AEF700CEAA3E /* 03压缩与解压缩UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A281B3C92004AEF700CEAA3E /* Build configuration list for PBXNativeTarget "03压缩与解压缩UITests" */;
+			buildPhases = (
+				A281B3B62004AEF700CEAA3E /* Sources */,
+				A281B3B72004AEF700CEAA3E /* Frameworks */,
+				A281B3B82004AEF700CEAA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A281B3BC2004AEF700CEAA3E /* PBXTargetDependency */,
+			);
+			name = "03压缩与解压缩UITests";
+			productName = "03压缩与解压缩UITests";
+			productReference = A281B3BA2004AEF700CEAA3E /* 03压缩与解压缩UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A281B38E2004AEF700CEAA3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mazaiting;
+				TargetAttributes = {
+					A281B3952004AEF700CEAA3E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A281B3AE2004AEF700CEAA3E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A281B3952004AEF700CEAA3E;
+					};
+					A281B3B92004AEF700CEAA3E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A281B3952004AEF700CEAA3E;
+					};
+				};
+			};
+			buildConfigurationList = A281B3912004AEF700CEAA3E /* Build configuration list for PBXProject "03压缩与解压缩" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A281B38D2004AEF700CEAA3E;
+			productRefGroup = A281B3972004AEF700CEAA3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A281B3952004AEF700CEAA3E /* 03压缩与解压缩 */,
+				A281B3AE2004AEF700CEAA3E /* 03压缩与解压缩Tests */,
+				A281B3B92004AEF700CEAA3E /* 03压缩与解压缩UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A281B3942004AEF700CEAA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A281B3A92004AEF700CEAA3E /* LaunchScreen.storyboard in Resources */,
+				A281B3A62004AEF700CEAA3E /* Assets.xcassets in Resources */,
+				A281B3A42004AEF700CEAA3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A281B3AD2004AEF700CEAA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A281B3B82004AEF700CEAA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A281B3922004AEF700CEAA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A281B3DB2004AF8700CEAA3E /* unzip.c in Sources */,
+				A281B3A12004AEF700CEAA3E /* ViewController.m in Sources */,
+				A281B39E2004AEF700CEAA3E /* AppDelegate.m in Sources */,
+				A281B3D92004AF8700CEAA3E /* ioapi.c in Sources */,
+				A281B3DD2004AF8700CEAA3E /* SSZipArchive.m in Sources */,
+				A281B3DC2004AF8700CEAA3E /* zip.c in Sources */,
+				A281B39B2004AEF700CEAA3E /* main.m in Sources */,
+				A281B3DA2004AF8700CEAA3E /* mztools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A281B3AB2004AEF700CEAA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A281B3B42004AEF700CEAA3E /* _3______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A281B3B62004AEF700CEAA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A281B3BF2004AEF700CEAA3E /* _3______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A281B3B12004AEF700CEAA3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A281B3952004AEF700CEAA3E /* 03压缩与解压缩 */;
+			targetProxy = A281B3B02004AEF700CEAA3E /* PBXContainerItemProxy */;
+		};
+		A281B3BC2004AEF700CEAA3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A281B3952004AEF700CEAA3E /* 03压缩与解压缩 */;
+			targetProxy = A281B3BB2004AEF700CEAA3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A281B3A22004AEF700CEAA3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A281B3A32004AEF700CEAA3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A281B3A72004AEF700CEAA3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A281B3A82004AEF700CEAA3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A281B3C12004AEF700CEAA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A281B3C22004AEF700CEAA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A281B3C42004AEF700CEAA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03压缩与解压缩/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-3------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A281B3C52004AEF700CEAA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03压缩与解压缩/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-3------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A281B3C72004AEF700CEAA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03压缩与解压缩Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-3------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03压缩与解压缩.app/03压缩与解压缩";
+			};
+			name = Debug;
+		};
+		A281B3C82004AEF700CEAA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03压缩与解压缩Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-3------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03压缩与解压缩.app/03压缩与解压缩";
+			};
+			name = Release;
+		};
+		A281B3CA2004AEF700CEAA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03压缩与解压缩UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-3------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03压缩与解压缩";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A281B3CB2004AEF700CEAA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03压缩与解压缩UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-3------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03压缩与解压缩";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A281B3912004AEF700CEAA3E /* Build configuration list for PBXProject "03压缩与解压缩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A281B3C12004AEF700CEAA3E /* Debug */,
+				A281B3C22004AEF700CEAA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A281B3C32004AEF700CEAA3E /* Build configuration list for PBXNativeTarget "03压缩与解压缩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A281B3C42004AEF700CEAA3E /* Debug */,
+				A281B3C52004AEF700CEAA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A281B3C62004AEF700CEAA3E /* Build configuration list for PBXNativeTarget "03压缩与解压缩Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A281B3C72004AEF700CEAA3E /* Debug */,
+				A281B3C82004AEF700CEAA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A281B3C92004AEF700CEAA3E /* Build configuration list for PBXNativeTarget "03压缩与解压缩UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A281B3CA2004AEF700CEAA3E /* Debug */,
+				A281B3CB2004AEF700CEAA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A281B38E2004AEF700CEAA3E /* Project object */;
+}
