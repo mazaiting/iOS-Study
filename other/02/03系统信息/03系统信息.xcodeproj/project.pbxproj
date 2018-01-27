@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2EED2EF201713DF00052D0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED2EE201713DF00052D0D /* main.m */; };
+		A2EED2F2201713DF00052D0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED2F1201713DF00052D0D /* AppDelegate.m */; };
+		A2EED2F5201713DF00052D0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED2F4201713DF00052D0D /* ViewController.m */; };
+		A2EED2F8201713DF00052D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EED2F6201713DF00052D0D /* Main.storyboard */; };
+		A2EED2FA201713DF00052D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EED2F9201713DF00052D0D /* Assets.xcassets */; };
+		A2EED2FD201713DF00052D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EED2FB201713DF00052D0D /* LaunchScreen.storyboard */; };
+		A2EED3B820171BB700052D0D /* SystemServices.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED39920171BB700052D0D /* SystemServices.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3B920171BB700052D0D /* SSAccelerometerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED39D20171BB700052D0D /* SSAccelerometerInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3BA20171BB700052D0D /* SSAccessoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED39F20171BB700052D0D /* SSAccessoryInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3BB20171BB700052D0D /* SSApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3A120171BB700052D0D /* SSApplicationInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3BC20171BB700052D0D /* SSBatteryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3A320171BB700052D0D /* SSBatteryInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3BD20171BB700052D0D /* SSCarrierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3A520171BB700052D0D /* SSCarrierInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3BE20171BB700052D0D /* SSDiskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3A720171BB700052D0D /* SSDiskInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3BF20171BB700052D0D /* SSHardwareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3A920171BB700052D0D /* SSHardwareInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3C020171BB700052D0D /* SSJailbreakCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3AB20171BB700052D0D /* SSJailbreakCheck.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3C120171BB700052D0D /* SSLocalizationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3AD20171BB700052D0D /* SSLocalizationInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3C220171BB700052D0D /* SSMemoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3AF20171BB700052D0D /* SSMemoryInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3C320171BB700052D0D /* SSNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3B120171BB700052D0D /* SSNetworkInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3C420171BB700052D0D /* SSProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3B320171BB700052D0D /* SSProcessInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3C520171BB700052D0D /* SSProcessorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3B520171BB700052D0D /* SSProcessorInfo.m */; settings = {ASSET_TAGS = (); }; };
+		A2EED3C620171BB700052D0D /* SSUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EED3B720171BB700052D0D /* SSUUID.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2EED2EA201713DF00052D0D /* 03系统信息.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03系统信息.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EED2EE201713DF00052D0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2EED2F0201713DF00052D0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2EED2F1201713DF00052D0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2EED2F3201713DF00052D0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2EED2F4201713DF00052D0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2EED2F7201713DF00052D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2EED2F9201713DF00052D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2EED2FC201713DF00052D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2EED2FE201713DF00052D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EED39820171BB700052D0D /* SystemServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemServices.h; sourceTree = "<group>"; };
+		A2EED39920171BB700052D0D /* SystemServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemServices.m; sourceTree = "<group>"; };
+		A2EED39C20171BB700052D0D /* SSAccelerometerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAccelerometerInfo.h; sourceTree = "<group>"; };
+		A2EED39D20171BB700052D0D /* SSAccelerometerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAccelerometerInfo.m; sourceTree = "<group>"; };
+		A2EED39E20171BB700052D0D /* SSAccessoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAccessoryInfo.h; sourceTree = "<group>"; };
+		A2EED39F20171BB700052D0D /* SSAccessoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAccessoryInfo.m; sourceTree = "<group>"; };
+		A2EED3A020171BB700052D0D /* SSApplicationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSApplicationInfo.h; sourceTree = "<group>"; };
+		A2EED3A120171BB700052D0D /* SSApplicationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSApplicationInfo.m; sourceTree = "<group>"; };
+		A2EED3A220171BB700052D0D /* SSBatteryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBatteryInfo.h; sourceTree = "<group>"; };
+		A2EED3A320171BB700052D0D /* SSBatteryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBatteryInfo.m; sourceTree = "<group>"; };
+		A2EED3A420171BB700052D0D /* SSCarrierInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCarrierInfo.h; sourceTree = "<group>"; };
+		A2EED3A520171BB700052D0D /* SSCarrierInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCarrierInfo.m; sourceTree = "<group>"; };
+		A2EED3A620171BB700052D0D /* SSDiskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDiskInfo.h; sourceTree = "<group>"; };
+		A2EED3A720171BB700052D0D /* SSDiskInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDiskInfo.m; sourceTree = "<group>"; };
+		A2EED3A820171BB700052D0D /* SSHardwareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHardwareInfo.h; sourceTree = "<group>"; };
+		A2EED3A920171BB700052D0D /* SSHardwareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHardwareInfo.m; sourceTree = "<group>"; };
+		A2EED3AA20171BB700052D0D /* SSJailbreakCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJailbreakCheck.h; sourceTree = "<group>"; };
+		A2EED3AB20171BB700052D0D /* SSJailbreakCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJailbreakCheck.m; sourceTree = "<group>"; };
+		A2EED3AC20171BB700052D0D /* SSLocalizationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocalizationInfo.h; sourceTree = "<group>"; };
+		A2EED3AD20171BB700052D0D /* SSLocalizationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocalizationInfo.m; sourceTree = "<group>"; };
+		A2EED3AE20171BB700052D0D /* SSMemoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMemoryInfo.h; sourceTree = "<group>"; };
+		A2EED3AF20171BB700052D0D /* SSMemoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMemoryInfo.m; sourceTree = "<group>"; };
+		A2EED3B020171BB700052D0D /* SSNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetworkInfo.h; sourceTree = "<group>"; };
+		A2EED3B120171BB700052D0D /* SSNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNetworkInfo.m; sourceTree = "<group>"; };
+		A2EED3B220171BB700052D0D /* SSProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProcessInfo.h; sourceTree = "<group>"; };
+		A2EED3B320171BB700052D0D /* SSProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProcessInfo.m; sourceTree = "<group>"; };
+		A2EED3B420171BB700052D0D /* SSProcessorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProcessorInfo.h; sourceTree = "<group>"; };
+		A2EED3B520171BB700052D0D /* SSProcessorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProcessorInfo.m; sourceTree = "<group>"; };
+		A2EED3B620171BB700052D0D /* SSUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSUUID.h; sourceTree = "<group>"; };
+		A2EED3B720171BB700052D0D /* SSUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSUUID.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2EED2E7201713DF00052D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2EED2E1201713DF00052D0D = {
+			isa = PBXGroup;
+			children = (
+				A2EED2EC201713DF00052D0D /* 03系统信息 */,
+				A2EED2EB201713DF00052D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2EED2EB201713DF00052D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2EED2EA201713DF00052D0D /* 03系统信息.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EED2EC201713DF00052D0D /* 03系统信息 */ = {
+			isa = PBXGroup;
+			children = (
+				A2EED39720171BB700052D0D /* System Services */,
+				A2EED2F0201713DF00052D0D /* AppDelegate.h */,
+				A2EED2F1201713DF00052D0D /* AppDelegate.m */,
+				A2EED2F3201713DF00052D0D /* ViewController.h */,
+				A2EED2F4201713DF00052D0D /* ViewController.m */,
+				A2EED2F6201713DF00052D0D /* Main.storyboard */,
+				A2EED2F9201713DF00052D0D /* Assets.xcassets */,
+				A2EED2FB201713DF00052D0D /* LaunchScreen.storyboard */,
+				A2EED2FE201713DF00052D0D /* Info.plist */,
+				A2EED2ED201713DF00052D0D /* Supporting Files */,
+			);
+			path = "03系统信息";
+			sourceTree = "<group>";
+		};
+		A2EED2ED201713DF00052D0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2EED2EE201713DF00052D0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2EED39720171BB700052D0D /* System Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2EED39820171BB700052D0D /* SystemServices.h */,
+				A2EED39920171BB700052D0D /* SystemServices.m */,
+				A2EED39A20171BB700052D0D /* Utilities */,
+			);
+			path = "System Services";
+			sourceTree = "<group>";
+		};
+		A2EED39A20171BB700052D0D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A2EED39C20171BB700052D0D /* SSAccelerometerInfo.h */,
+				A2EED39D20171BB700052D0D /* SSAccelerometerInfo.m */,
+				A2EED39E20171BB700052D0D /* SSAccessoryInfo.h */,
+				A2EED39F20171BB700052D0D /* SSAccessoryInfo.m */,
+				A2EED3A020171BB700052D0D /* SSApplicationInfo.h */,
+				A2EED3A120171BB700052D0D /* SSApplicationInfo.m */,
+				A2EED3A220171BB700052D0D /* SSBatteryInfo.h */,
+				A2EED3A320171BB700052D0D /* SSBatteryInfo.m */,
+				A2EED3A420171BB700052D0D /* SSCarrierInfo.h */,
+				A2EED3A520171BB700052D0D /* SSCarrierInfo.m */,
+				A2EED3A620171BB700052D0D /* SSDiskInfo.h */,
+				A2EED3A720171BB700052D0D /* SSDiskInfo.m */,
+				A2EED3A820171BB700052D0D /* SSHardwareInfo.h */,
+				A2EED3A920171BB700052D0D /* SSHardwareInfo.m */,
+				A2EED3AA20171BB700052D0D /* SSJailbreakCheck.h */,
+				A2EED3AB20171BB700052D0D /* SSJailbreakCheck.m */,
+				A2EED3AC20171BB700052D0D /* SSLocalizationInfo.h */,
+				A2EED3AD20171BB700052D0D /* SSLocalizationInfo.m */,
+				A2EED3AE20171BB700052D0D /* SSMemoryInfo.h */,
+				A2EED3AF20171BB700052D0D /* SSMemoryInfo.m */,
+				A2EED3B020171BB700052D0D /* SSNetworkInfo.h */,
+				A2EED3B120171BB700052D0D /* SSNetworkInfo.m */,
+				A2EED3B220171BB700052D0D /* SSProcessInfo.h */,
+				A2EED3B320171BB700052D0D /* SSProcessInfo.m */,
+				A2EED3B420171BB700052D0D /* SSProcessorInfo.h */,
+				A2EED3B520171BB700052D0D /* SSProcessorInfo.m */,
+				A2EED3B620171BB700052D0D /* SSUUID.h */,
+				A2EED3B720171BB700052D0D /* SSUUID.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2EED2E9201713DF00052D0D /* 03系统信息 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EED301201713DF00052D0D /* Build configuration list for PBXNativeTarget "03系统信息" */;
+			buildPhases = (
+				A2EED2E6201713DF00052D0D /* Sources */,
+				A2EED2E7201713DF00052D0D /* Frameworks */,
+				A2EED2E8201713DF00052D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03系统信息";
+			productName = "03系统信息";
+			productReference = A2EED2EA201713DF00052D0D /* 03系统信息.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2EED2E2201713DF00052D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mazaiting;
+				TargetAttributes = {
+					A2EED2E9201713DF00052D0D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A2EED2E5201713DF00052D0D /* Build configuration list for PBXProject "03系统信息" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2EED2E1201713DF00052D0D;
+			productRefGroup = A2EED2EB201713DF00052D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2EED2E9201713DF00052D0D /* 03系统信息 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2EED2E8201713DF00052D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EED2FD201713DF00052D0D /* LaunchScreen.storyboard in Resources */,
+				A2EED2FA201713DF00052D0D /* Assets.xcassets in Resources */,
+				A2EED2F8201713DF00052D0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2EED2E6201713DF00052D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EED3BA20171BB700052D0D /* SSAccessoryInfo.m in Sources */,
+				A2EED3BF20171BB700052D0D /* SSHardwareInfo.m in Sources */,
+				A2EED3C520171BB700052D0D /* SSProcessorInfo.m in Sources */,
+				A2EED3BD20171BB700052D0D /* SSCarrierInfo.m in Sources */,
+				A2EED3C620171BB700052D0D /* SSUUID.m in Sources */,
+				A2EED3C120171BB700052D0D /* SSLocalizationInfo.m in Sources */,
+				A2EED3BE20171BB700052D0D /* SSDiskInfo.m in Sources */,
+				A2EED3B920171BB700052D0D /* SSAccelerometerInfo.m in Sources */,
+				A2EED3B820171BB700052D0D /* SystemServices.m in Sources */,
+				A2EED3C320171BB700052D0D /* SSNetworkInfo.m in Sources */,
+				A2EED2F5201713DF00052D0D /* ViewController.m in Sources */,
+				A2EED2F2201713DF00052D0D /* AppDelegate.m in Sources */,
+				A2EED2EF201713DF00052D0D /* main.m in Sources */,
+				A2EED3C420171BB700052D0D /* SSProcessInfo.m in Sources */,
+				A2EED3BB20171BB700052D0D /* SSApplicationInfo.m in Sources */,
+				A2EED3C020171BB700052D0D /* SSJailbreakCheck.m in Sources */,
+				A2EED3C220171BB700052D0D /* SSMemoryInfo.m in Sources */,
+				A2EED3BC20171BB700052D0D /* SSBatteryInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2EED2F6201713DF00052D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EED2F7201713DF00052D0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2EED2FB201713DF00052D0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EED2FC201713DF00052D0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2EED2FF201713DF00052D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2EED300201713DF00052D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2EED302201713DF00052D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03系统信息/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-3----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2EED303201713DF00052D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03系统信息/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mazaiting.-3----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2EED2E5201713DF00052D0D /* Build configuration list for PBXProject "03系统信息" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EED2FF201713DF00052D0D /* Debug */,
+				A2EED300201713DF00052D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EED301201713DF00052D0D /* Build configuration list for PBXNativeTarget "03系统信息" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EED302201713DF00052D0D /* Debug */,
+				A2EED303201713DF00052D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2EED2E2201713DF00052D0D /* Project object */;
+}
