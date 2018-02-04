@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true'>
+    <pages>
+        <page name='1. 体验'/>
+        <page name='2. 变量和常量'/>
+        <page name='3. 逻辑控制'/>
+        <page name='4. Optional'/>
+        <page name='5. Switch'/>
+        <page name='6. 字符串'/>
+        <page name='7. 循环'/>
+        <page name='8. 数组'/>
+        <page name='9. 字典'/>
+        <page name='10. 函数'/>
+        <page name='11. 闭包'/>
+        <page name='12. 构造函数'/>
+    </pages>
+</playground>
