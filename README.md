@@ -3,7 +3,7 @@ iOS  学习
 
 # Mac文件夹
 1). Mac服务器: 基于GCD的客户端与服务器通信，使用telnet与Mac客户端实现通信<Br/>
-2). XMPP: 基于XMPP框架及Openfire服务器的即时通信工程<Br/>
+2). XMPP: 基于XMPP框架及Openfire服务器的即时通信工程 [XMPPFramework 使用(Mac)](https://www.jianshu.com/p/95f667a97d13)<Br/>
 
 # Net文件夹
 1). 基于Socket实现，socket通信，模拟聊天，请求百度<Br/>
